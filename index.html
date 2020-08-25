@@ -3,15 +3,14 @@
 <head>
 	  <meta charset="UTF-8">
 	<title>Home</title>
-	
+		
 	 	<link rel="icon" href="Assets/fox.png" type="image/gif" > 
 	    <link rel="stylesheet" type="text/css" href="css/cssResets.css">
 	    <link rel="stylesheet" type="text/css" href="css/font-faces.css">
 	    <link rel="stylesheet" type="text/css" href="css/NavbarAndFooter.css">
 	  	<link rel="stylesheet" type="text/css" href="css/homeStyle.css">
 	  	<link rel="stylesheet" type="text/css" href="css/media.css">
-
-	  
+	  	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
 
 </head>
 <body>
@@ -37,9 +36,9 @@
 	</div>
 	<div style="clear:both"></div>
 	<div class="imagesShowCase">
-		<img src="Assets/rainbow.png" class="firstSession">
-		<img src="Assets/polar.png" class="firstSession">
-		<img src="Assets/circles.png" class="firstSession">
+		<a href="Assets/rainbow2x.png" data-lightbox="firstSesionGalery" data-title="Rainbow Bubbles" class="firstSessionAnchor"><img src="Assets/rainbow.png" class="firstSession"></a>
+		<a href="Assets/polar2x.png" data-lightbox="firstSesionGalery" data-title="Chaotic Beautifull" class="firstSessionAnchor"><img src="Assets/polar.png" class="firstSession"></a>
+		<a href="Assets/circles2x.png" data-lightbox="firstSesionGalery" data-title="Pinki Thing" class="firstSessionAnchor"><img src="Assets/circles.png" class="firstSession"></a>
 	</div>
 	<div style="clear:both"></div>
 		<div class="chatBoxType1">
@@ -48,10 +47,10 @@
 		</p>
 	</div>
 	<div class="imagesShowCase2">
-		<img src="Assets/TEye.png" class="secondSession">
-		<img src="Assets/star.jpg" class="secondSession">
-		<img src="Assets/OCG.png" class="secondSession">
-		<img src="Assets/OCC.png" class="secondSession">
+		<a href="Assets/TEye.png" data-lightbox="secondSesionGalery" data-title="Stary Eye" class="secondSessionAnchor"><img src="Assets/TEye.png" class="secondSession"></a>
+		<a href="Assets/star.jpg" data-lightbox="secondSesionGalery" data-title="Star Explosion" class="secondSessionAnchor"><img src="Assets/star.jpg" class="secondSession"></a>
+		<a href="Assets/OCG.png" data-lightbox="secondSesionGalery" data-title="Circles grid" class="secondSessionAnchor"><img src="Assets/OCG.png" class="secondSession"></a>
+		<a href="Assets/OCC.png" data-lightbox="secondSesionGalery" data-title="Flower Of Life" class="secondSessionAnchor"><img src="Assets/OCC.png" class="secondSession"></a>
 	</div>
 		<div class="chatBoxType2">
 		<p class="chatTextType2">
@@ -63,13 +62,14 @@
 <footer>	
 <div class="socialMedia">
 	<div class="socialMediaIcons">
-		<img src="Assets/instagram.png" class="socialMediaLogo">
-		<img src="Assets/paypal.png" class="socialMediaLogo">
-		<img src="Assets/zedge.png" class="socialMediaLogo">
+		<a href="https://www.instagram.com/random_casualtiess/"><img src="Assets/instagram.png" class="socialMediaLogo" alt="instagram"></a>
+		<a href="https://www.paypal.me/AlexandruAlex"><img src="Assets/paypal.png" class="socialMediaLogo" alt="paypal"></a>
+		<a href="https://www.zedge.net/profile/gandolh"><img src="Assets/zedge.png" class="socialMediaLogo lastOneLogo" alt="zedge"></a>
 		</div>	
 </div>
 
 </footer>
+	<script src="javascript/lightbox-plus-jquery.min.js"></script>
 	<script src="javascript/script.js"></script>
 </body>
 </html>

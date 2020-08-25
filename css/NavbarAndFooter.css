@@ -46,7 +46,7 @@ footer{
 	height:50px;
 	box-shadow: -6px 0px 9px rgba(0,0,0,0.1);
 }
-.socialMediaLogo:nth-child(3){
+.lastOneLogo{
 	box-shadow: -6px 0px 9px rgba(0,0,0,0.1),6px 0px 9px rgba(0,0,0,0.1);
 }
 .socialMedia{

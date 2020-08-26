@@ -13,7 +13,8 @@
 	align-items: center;
 	flex-direction: column;
 	background-color:#4BC2C5;
-	box-shadow: 9px 9px 9px rgba(0,0,0,0.16);
+	box-
+	hadow: 9px 9px 9px rgba(0,0,0,0.16);
 }
 .contactCard:nth-child(1){
 	margin-left:0px;

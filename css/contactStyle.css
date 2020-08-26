@@ -3,27 +3,24 @@
 	display:flex;
 	align-items: center;
   	justify-content: center;
+  	flex-wrap:wrap;
 	width:100%;
-	height:100vh;
+	height:auto;
 }
-
 .contactCard{
 	display:flex;
 	justify-content:center;
 	align-items: center;
 	flex-direction: column;
-	width:23.43vw;
-	height:65.18vh;
-	margin-left:20px;
 	background-color:#4BC2C5;
-	border-radius:3.55vw;
 	box-shadow: 9px 9px 9px rgba(0,0,0,0.16);
 }
 .contactCard:nth-child(1){
 	margin-left:0px;
 }
 footer{
-
+	position:fixed;
+	bottom:0;
 }
 .contactCard h1{
 	font-family: RobotoMedium;
@@ -35,21 +32,10 @@ footer{
 	
 }
 .IGP{
-	height: 73%;
 	border-radius:3.55vw;
 	box-shadow: 6px 6px 6px rgba(0,0,0,0.16);
 }
-.CC2FindMe{
-	margin:0 20px;
-	font-size:20px;
-}
-.blueText{
-	color:#78FEE0;
-}
-.yellowText{
-	color:#FEF4A9;
-	margin-bottom:20px;
-}
+
 .CC3FindMe{
 	margin:20px 20px;
 	font-size:20px;

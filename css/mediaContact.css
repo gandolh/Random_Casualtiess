@@ -1,0 +1,134 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px) {
+.navbarMeniu{
+	font-size:0.65em;
+	margin:calc(17.5px + 1em);
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) { /*phones*/
+.navbar{
+
+		height:120px;
+}
+
+.logoImg{
+		height:105px;
+}
+.navbarMeniu{
+	font-size:1.45em;
+	margin:calc(30px + 0.65em);
+}
+
+.socialMediaLogo{
+	height:70px;
+}
+.contactCard:nth-child(1){
+	margin-top:150px;
+}	
+.contactCard{
+	margin-bottom:150px;
+		width:75vw;
+	border-radius:7.55vw;	
+}	
+.contactCard:nth-child(2){
+padding:30px 0px;
+}
+.IGP{
+	width:70vw;
+	margin-bottom:15px;
+}
+.GP{
+	width:70vw;
+	margin-bottom:15px;
+}
+.CC2FindMe{
+	margin:0 30px;
+	font-size:30px;
+}
+.blueText{
+	color:#78FEE0;
+}
+.yellowText{
+	color:#FEF4A9;
+	margin-bottom:20px;
+}
+.CC3FindMe{
+	font-size:30px;
+}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) { 
+
+
+} 
+	/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.navbar{
+	height:70px;
+
+
+}
+.logoImg{
+	height:55px;
+}
+  	.navbarMeniu{
+	font-size:1.1em;
+	margin:calc(17.5px + 0.5em);
+}
+
+.socialMediaLogo{
+	height:50px;
+}
+.contactCard{
+	width:23.43vw;
+	height:65.18vh;
+	margin-left:20px;
+	border-radius:3.55vw;
+}
+.container{
+	height:100vh;
+}
+.IGP{
+	width:21.43vw;
+	margin-bottom:0px;
+}
+.GP{
+	width:21.43vw;
+	margin-bottom:0px;
+}
+.contactCard:nth-child(1){
+	margin-top:0px;
+}	
+.contactCard{
+	margin-bottom:0px;	
+}	
+.CC2FindMe{
+	margin:0 20px;
+	font-size:20px;
+}
+.blueText{
+	color:#78FEE0;
+}
+.yellowText{
+	color:#FEF4A9;
+	margin-bottom:20px;
+}
+
+.contactCard:nth-child(2){
+padding: 0px;
+}
+.CC3FindMe{
+	font-size:20px;
+}
+} 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  	.navbarMeniu{
+	font-size:1.25em;
+	margin:17.5px;
+}
+
+
+} 

@@ -9,6 +9,7 @@
 	    <link rel="stylesheet" type="text/css" href="../css/NavbarAndFooter.css">
 	    <link rel="stylesheet" type="text/css" href="../css/contactStyle.css">
 	   	<link rel="stylesheet" type="text/css" href="../css/mediaContact.css">
+	   	<link rel="stylesheet" type="text/css" href="../css/lightbox.css">
 </head>
 <body>
 <div class="navbar">
@@ -16,14 +17,14 @@
 	<ul class="navbarMeniu">
 		<li><a href="../index.html" >Home</a></li>
 		<li><a href="contact.html" class="activeAnchor">Contact</a></li>
-		<li><a href="#">Animations</a></li>
+		<li><a href="animation.html">Animations</a></li>
 		<li><a href="https://www.zedge.net/profile/gandolh">Zedge</a></li>
 	</ul>
 </div>
 <div class="container">
 	<div class="contactCard">
 		<h1 class="CC1FindMe">You can find me on Instagram at:</h1>
-		<img src="../Assets/instagramProfile.png" class="IGP">
+		<a href="../Assets/instagramProfile.png" data-lightbox="cards" data-title="IG Profile" class="IGPAnchor"><img src="../Assets/instagramProfile.png" class="IGP"></a>
 	</div>
 	<div class="contactCard">
 		<h1 class="CC2FindMe blueText">
@@ -62,7 +63,7 @@
 			<h1 class="CC3FindMe blueText">
 			And thats it,  so,  here is a flower for your lovely time spent reading this
 			</h1>
-			<img src="../Assets/generatedPlant.png" class="GP">
+			<a href="../Assets/generatedPlant.png" data-lightbox="cards" data-title="Plant" class="GPAnchor"><img src="../Assets/generatedPlant.png" class="GP"></a>
 	</div>
 </div>
 <div style="clear:both"></div>
@@ -75,5 +76,7 @@
 		</div>	
 </div>
 </footer>
+	<script src="../javascript/lightbox-plus-jquery.min.js"></script>
+	<script src="../javascript/script.js"></script>
 </body>
 </html>

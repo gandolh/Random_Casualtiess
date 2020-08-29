@@ -134,6 +134,10 @@ padding: 0px;
 	width:100%;
 	height:100%;
 }
+.contactCard:nth-child(2){
+
+	margin-top:-50px;
+}
 } 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {

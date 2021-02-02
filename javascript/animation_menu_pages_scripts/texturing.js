@@ -35,49 +35,40 @@ for(let i=0;i<arr.length;i++){
 		arr[i].id='active';
 	switch(i){
 
-		
+
+
 case 0:{
-	document.getElementById('iframeAnimation').src='../../javascript/p5js/Noisey%20algorithms/butterfly generator/index.html'
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Texturing/pointilism/index.html'
 	break;
 }
 
 case 1:{
-	document.getElementById('iframeAnimation').src='../../javascript/p5js/Noisey%20algorithms/CUTE THING/index.html'
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Texturing/post-impresionism/index.html'
 	break;
 }
 
 case 2:{
-	document.getElementById('iframeAnimation').src='../../javascript/p5js/Noisey%20algorithms/fireFly/index.html'
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Texturing/stipling/index.html'
 	break;
 }
 
 case 3:{
-	document.getElementById('iframeAnimation').src='../../javascript/p5js/Noisey%20algorithms/floodfillart/index.html'
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Texturing/sunrise 1/index.html'
 	break;
 }
 
 case 4:{
-	document.getElementById('iframeAnimation').src='../../javascript/p5js/Noisey%20algorithms/floodfillart 2/index.html'
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Texturing/sunrise 2/index.html'
 	break;
 }
 
 case 5:{
-	document.getElementById('iframeAnimation').src='../../javascript/p5js/Noisey%20algorithms/mitosis/index.html'
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Texturing/sunrise 3/index.html'
 	break;
 }
 
 case 6:{
-	document.getElementById('iframeAnimation').src='../../javascript/p5js/Noisey%20algorithms/perlinnoise/index.html'
-	break;
-}
-
-case 7:{
-	document.getElementById('iframeAnimation').src='../../javascript/p5js/Noisey%20algorithms/perlinNoiseAnimation/index.html'
-	break;
-}
-
-case 8:{
-	document.getElementById('iframeAnimation').src='../../javascript/p5js/Noisey%20algorithms/triangleThing/index.html'
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Texturing/waterTypePainting/index.html'
 	break;
 }
 

@@ -35,20 +35,32 @@ for(let i=0;i<arr.length;i++){
 		arr[i].id='active';
 	switch(i){
 
-		case 0:{
-			document.getElementById('iframeAnimation').src='../../javascript/p5js/mathematical%20things/gaugasian-distribution/index.html'
-			break;
-		}
 
-		case 1:{
-			document.getElementById('iframeAnimation').src='../../javascript/p5js/mathematical%20things/sort/index.html'
-			break;
-		}
+			case 0:{
+				document.getElementById('iframeAnimation').src='../../javascript/p5js/mathematical%20things/Christmass Tree/index.html'
+				break;
+			}
 
-		case 2:{
-			document.getElementById('iframeAnimation').src='../../javascript/p5js/mathematical%20things/tricky geometry/index.html'
-			break;
-		}
+			case 1:{
+				document.getElementById('iframeAnimation').src='../../javascript/p5js/mathematical%20things/gaugasian-distribution/index.html'
+				break;
+			}
+
+			case 2:{
+				document.getElementById('iframeAnimation').src="../../javascript/p5js/mathematical%20things/recaman's sequence/index.html"
+				break;
+			}
+
+			case 3:{
+				document.getElementById('iframeAnimation').src='../../javascript/p5js/mathematical%20things/sort/index.html'
+				break;
+			}
+
+			case 4:{
+				document.getElementById('iframeAnimation').src='../../javascript/p5js/mathematical%20things/tricky geometry/index.html'
+				break;
+			}
+
 
 	}
 	});

@@ -35,6 +35,7 @@ for(let i=0;i<arr.length;i++){
 		arr[i].id='active';
 	switch(i){
 
+
 case 0:{
 	document.getElementById('iframeAnimation').src='../../javascript/p5js/Patterns/CoolTextureGrid/index.html'
 	break;
@@ -46,36 +47,46 @@ case 1:{
 }
 
 case 2:{
-	document.getElementById('iframeAnimation').src='../../javascript/p5js/Patterns/overlappingCirclesGrid0/index.html'
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Patterns/gridOfGridOfGridOfshapes/index.html'
 	break;
 }
 
 case 3:{
-	document.getElementById('iframeAnimation').src='../../javascript/p5js/Patterns/overlappingCirclesGrid1/index.html'
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Patterns/overlappingCirclesGrid0/index.html'
 	break;
 }
 
 case 4:{
-	document.getElementById('iframeAnimation').src='../../javascript/p5js/Patterns/overlappingCirclesGrid2/index.html'
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Patterns/overlappingCirclesGrid1/index.html'
 	break;
 }
 
 case 5:{
-	document.getElementById('iframeAnimation').src='../../javascript/p5js/Patterns/overlappingcirclesgrid3/index.html'
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Patterns/overlappingCirclesGrid2/index.html'
 	break;
 }
 
 case 6:{
-	document.getElementById('iframeAnimation').src='../../javascript/p5js/Patterns/truchet_tiles 1/index.html'
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Patterns/overlappingcirclesgrid3/index.html'
 	break;
 }
 
 case 7:{
-	document.getElementById('iframeAnimation').src='../../javascript/p5js/Patterns/truchet_tiles 2/index.html'
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Patterns/radiuses/index.html'
 	break;
 }
 
 case 8:{
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Patterns/truchet_tiles 1/index.html'
+	break;
+}
+
+case 9:{
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Patterns/truchet_tiles 2/index.html'
+	break;
+}
+
+case 10:{
 	document.getElementById('iframeAnimation').src='../../javascript/p5js/Patterns/truchet_tiles 3/index.html'
 	break;
 }

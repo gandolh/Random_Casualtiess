@@ -1,0 +1,7 @@
+<a class="option"> pointilism </a>
+<a class="option"> post impresionism </a>
+<a class="option"> stipling </a>
+<a class="option"> sunrise 1 </a>
+<a class="option"> sunrise 2 </a>
+<a class="option"> sunrise 3 </a>
+<a class="option"> water type painting </a>

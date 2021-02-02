@@ -1,0 +1,35 @@
+
+case 0:{
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Cellular%20automata%20and%20L-system/pointilism/index.html'
+	break;
+}
+
+case 1:{
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Cellular%20automata%20and%20L-system/post-impresionism/index.html'
+	break;
+}
+
+case 2:{
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Cellular%20automata%20and%20L-system/stipling/index.html'
+	break;
+}
+
+case 3:{
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Cellular%20automata%20and%20L-system/sunrise 1/index.html'
+	break;
+}
+
+case 4:{
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Cellular%20automata%20and%20L-system/sunrise 2/index.html'
+	break;
+}
+
+case 5:{
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Cellular%20automata%20and%20L-system/sunrise 3/index.html'
+	break;
+}
+
+case 6:{
+	document.getElementById('iframeAnimation').src='../../javascript/p5js/Cellular%20automata%20and%20L-system/waterTypePainting/index.html'
+	break;
+}
